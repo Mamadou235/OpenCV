@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Veille IoT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Bienvenue</a></li>
+							<li><a href="#one">Contenu</a></li>
+							<li><a href="#two">Applications</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Open CV</h1>
+							<p>OpenCV (pour Open Computer Vision) est une bibliothèque graphique libre, initialement développée par Intel, spécialisée dans le traitement d'images en temps réel. La société de robotique Willow Garage et la société ItSeez se sont succédé au support de cette bibliothèque. Depuis 2016 et le rachat de ItSeez par Intel, le support est de nouveau assuré par Intel. Cette bibliothèque est distribuée sous licence BSD.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Apprendre d'avantage</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/open.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Présentation générale d’OPENCV</h2>
+									<p>
+Initialement développée par Intel, OpenCV (Open Computer Vision) est une bibliothèque graphique. Elle est spécialisée dans le traitement d’images, que ce soit pour de la photo ou de la vidéo.
+
+Sa première version est sortie en juin 2000. Elle est disponible sur la plupart des systèmes d’exploitation et existe pour les langages Python, C++ et Java.	<br>
+GSous licence BSD (Berkeley Software Distribution Licence), OpenCV peut être réutilisé librement, en tout ou partie, pour être intégré au sein d’un autre projet.
+
+C’est notament cette notion qui fait qu’OpenCV est très populaire et à la base de nombreux logiciels de traitements d’images/vidéos. Elle est aujourd’hui développée, maintenue, documentée et utilisée par une communauté de plus de 40 000 membres actifs !</p>
+									
+								</div>
+							</div>
+						</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>
+							Les traitements d’images
+							</h2>
+							<p>Les algorithmes d’OpenCV permettent d’appliquer divers traitements sur les images pour faciliter la détection d’éléments précis dans celles-ci. Voici quelques exemples :</p>
+							<div class="features">
+								<section>
+									<h3>Le Tresholding (seuillage)</h3>
+									<p>Le Tresholding (seuillage) d’une image permet de définir une valeur de pixel (correspondant à une couleur) qui servira de seuil. Au-dessus ou en dessous de cette valeur (selon l’agorithme), tous les pixels se verront assigner une autre valeur. Il existe 4 algorithmes de Tresholding.</p>
+								</section>
+								<section>
+									<h3>Les filtres</h3>
+									<p>Les filtres de détection de contours d’un objet sur une image (ex: Filtre de Canny)</p>
+								</section>
+								<section>
+									<h3>Les filtres de lissage</h3>
+									<p>Les filtres de lissage, permettant de réduire le bruit (1) d’une image. Parmi eux, nous avons notamment les filtres par convolution, se basant sur les pixels voisins pour faire une moyenne.</p>
+								</section>
+								<section>
+									<h3>Les filtres morphologiques </h3>
+									<p>Les filtres morphologiques permettant, sur une image binaire (uniquement noire et blanche avec le fond en noir et l’objet sur lequel on effectue le traitement en blanc) d’appliquer une érosion ou dilatation, c’est-à-dire affiner l’objet pour l’érosion et l’élargir pour la dilatation.</p>
+								</section>
+
+					</section>
+					<div class="inner">
+							<h2>
+							L’intelligence artificielle
+							</h2>
+							<p>Certains algorithmes d’OpenCV utilisent de l’intelligence artificielle pour faciliter le traitement des images. Dans les faits, cette IA sert à améliorer les algorithmes précédemment détaillés pour obtenir des résultats plus précis.
+							Ici, on utilise un filtre de convolution couplé à de l’intelligence artificielle pour obtenir un meilleur résultat que si nous n’avions utilisé que le filtre.</p>
+							<div class="features">
+					<div class="inner">
+							<h2>
+							Exemple d’utilisation d’OpenCV
+							</h2>
+							<p>Dans le cadre d’un projet chez Axopen, nous utilisons OpenCV pour gérer un match de babyfoot en repérant les joueurs ainsi que la balle, avec pour objectif de déterminer les buts et qui les a marqués :</p>
+							<img src="images/babi.png" alt="" height="" ="200px" />
+							<p>
+							De la même manière, les logiciels d’arbitrage vidéo se basent bien souvent sur OpenCV pour reconnaître les joueurs, déterminer leur équipe et détecter la balle sur le terrain, en se basant sur les couleurs de chaque élément.
+							</p>
+							<br>
+							<p>
+							Plus récemment, c’est aussi OpenCV qui est à la base du logiciel DeepFake, permettant de changer le visage d’une personne par une autre sur une vidéo, qui a fait beaucoup parler de lui ces derniers temps.
+							</p>
+							<img src="images/im.gif" alt="" />
+							<p>
+							Ici, OpenCV est utilisé pour reconnaître un visage sur une vidéo et le remplacer. Via de nombreuses photos de Sylvester Stallone, on entraîne une IA qui sera capable de remplacer le visage (ici celui de Arnold Schwarzenegger) détecté par OpenCV par celui souhaité.Les possibilités offertes par OpenCV sont nombreuses, si vous souhaitez allez plus loin et tester par vous-même, vous pouvez consulter nos tutos d’installation pour Windows et Mac !
+							</p>
+							<div class="features">
+
+
+				<!-- Three -->
+							<section>
+									<ul class="contact">
+										<li>
+											<h3>Addresse</h3>
+											<span>CIDFOR MTN simplon.co<br />
+											Abidjan, Cocody simplon.co<br />
+											CI</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">konemamadou235@gmail.com</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(+225) 0779830059</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
